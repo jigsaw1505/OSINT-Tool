@@ -10,13 +10,19 @@ display
 read -r choice
 case $choise in
 1)
-    bash src/uname.sh
+    echo"Enter username"
+    read -r uname
+    bash src/uname.sh $uname
     ;;
 2)
-    bash src/domain.sh
+    echo"Enter domain name"
+    read -r domain
+    bash src/domain.sh $domain
     ;;
 3) 
-    bash src/email.sh
+    echo "Enter email address"
+    read -r email
+    bash src/email.sh $email 
     ;;
 4)
     exit
