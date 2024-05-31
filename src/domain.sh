@@ -1,5 +1,5 @@
 #!/bin/bash
-
+while true do
 # Function to display usage information
 function usage() {
     echo "Usage: $0 <domain>"
