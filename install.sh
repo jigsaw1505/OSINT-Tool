@@ -1,3 +1,3 @@
 sudo apt-get install jq
-chmod +x uname.sh
-chmod +x email.sh
+chmod +x src/uname.sh
+chmod +x src/email.sh
