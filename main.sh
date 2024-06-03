@@ -30,6 +30,6 @@ case $choise in
 *)
     echo"enter valid option"
     esac
-    done
+done
     
     
